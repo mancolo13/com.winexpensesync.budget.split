@@ -32,27 +32,26 @@ class _MainScreenState extends State<MainScreen> {
         backgroundColor: AppTheme.surfaceColor,
         indicatorColor: AppTheme.primaryColor.withValues(alpha: 0.2),
         destinations: [
-        NavigationDestination(
-          icon: const Icon(Icons.flight_outlined),
-          selectedIcon: const Icon(Icons.flight, color: AppTheme.primaryColor),
-          label: 'Trips',
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.receipt_long_outlined),
-          selectedIcon: const Icon(Icons.receipt_long, color: AppTheme.primaryColor),
-          label: 'Expenses',
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.balance_outlined),
-          selectedIcon: const Icon(Icons.balance, color: AppTheme.primaryColor),
-          label: 'Balances',
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.check_outlined),
-          selectedIcon: const Icon(Icons.check, color: AppTheme.primaryColor),
-          label: 'Settle',
-        ),
-
+          NavigationDestination(
+            icon: const Icon(Icons.luggage_outlined),
+            selectedIcon: const Icon(Icons.luggage, color: AppTheme.primaryColor),
+            label: 'Trips',
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.receipt_long_outlined),
+            selectedIcon: const Icon(Icons.receipt_long, color: AppTheme.primaryColor),
+            label: 'Expenses',
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.handshake_outlined),
+            selectedIcon: const Icon(Icons.handshake, color: AppTheme.primaryColor),
+            label: 'Settle',
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.pie_chart_outline),
+            selectedIcon: const Icon(Icons.pie_chart, color: AppTheme.primaryColor),
+            label: 'Breakdown',
+          ),
         ],
       ),
     );
